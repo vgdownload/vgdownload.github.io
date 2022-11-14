@@ -119,4 +119,29 @@ nav ul li{
     body {
       background-color: red;
     }
-  }
+}
+
+@media only screen and (min-width: 400px) {
+    .songInfo{
+        position: absolute;
+        font-family: 'Varela Round', sans-serif;
+        margin-bottom: 28px;
+    }
+    .icons{
+        padding-top: 23px; 
+    }
+    
+    .songItem img{
+        width: 30px;
+        margin: 0 10px;
+        border-radius: 20px;
+    }
+
+    .timestamp{
+        margin: 0 15px;
+    }
+
+    .songName{
+        font-size: 15px;
+    }
+}
